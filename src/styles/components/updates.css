@@ -1,0 +1,78 @@
+/* Hero Updates */
+.hero {
+    padding-top: 160px;
+    padding-bottom: 120px;
+    background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.7)), url('../../../public/assets/hero_construction_safety_1768867789998.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    color: white;
+    /* Override default gradient */
+    background: none;
+    -webkit-text-fill-color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    color: #e2e8f0;
+    font-size: 1.35rem;
+}
+
+/* Service Cards with Images */
+.service-card-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid var(--border);
+}
+
+.service-card {
+    padding: 0;
+    /* REMOVE padding from container, move to content */
+    background: white;
+}
+
+.service-content {
+    padding: 2rem;
+}
+
+/* Trust Badges Row */
+.trust-badges {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.badge {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Testimonials */
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.testimonial-card {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border);
+}
+
+.stars {
+    color: var(--safety-yellow);
+    margin-bottom: 0.5rem;
+}
